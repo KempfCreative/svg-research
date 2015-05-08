@@ -37,7 +37,7 @@
 *  Presentation Attributes VS CSS Attributes:
       *  Some are shared, but many are not in SVG 1.1.  [W3C Presentation Spec](http://www.w3.org/TR/SVG/propidx.html)
       *  More (much more) are coming in SVG 2.0. [W3C List](http://www.w3.org/TR/SVG2/styling.html#SVGStylingProperties)
-      *  ![CSS vs SVG style properties](../img/shared-properties.png)
+      *  ![CSS vs SVG style properties](/img/shared-properties.png)
 *  Inline Styles:
       *   Can also apply styles we know and love to SVG inline:
 
@@ -67,7 +67,7 @@
 
 *  Style Cascade overrides
   *   All presentation attributes will be overridden by document styles. The only style that presentation attributes actually overwrite are user agent stylesheets (default browser).
-  *  ![The SVG Style Cascade](../img/style-cascade.png)
+  *  ![The SVG Style Cascade](/img/style-cascade.png)
 
 
 #### Using CSS Selectors:
