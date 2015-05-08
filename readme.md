@@ -127,3 +127,14 @@
 *  [Snap.svg](http://www.snapsvg.io) <- the Jquery of SVG.
 *  Animating a signature :)
     *  Both CSS &amp; JS will be used.
+
+# Presentation TO DO :
+
+- [ ] Initial HTML page for basic show/tell of .SVG files created to show styling
+  - [ ] Set up Grunt workflow
+- [ ] SVG Creation:
+  - [x] Basic ``<g>`` SVG
+  - [ ] SVG Sprite Sheet Art Creation
+- [ ] Main HTML page for interactive elements
+  - [ ] CSS Animations
+  - [ ] JS Animations
