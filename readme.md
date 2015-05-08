@@ -82,7 +82,7 @@
     *  transition
     *  ...just to name a few
 
-#### SVG Spriting:
+## SVG Spriting:
 
 *  First, creating the individual assets is necessary.
     *  Understanding the usage of ``<g>``, ``<use>``, ``<defs>``, &amp; ``<symbol>`` is important to knowing how sprites will interact.
@@ -95,7 +95,7 @@
     *  Like so: ``<img src="svg-sprite.svg#svg-sprite-icon" alt="One Sprite" />``
 *  There are **TONS OF OTHER TECHNIQUES**, view some [here](http://24ways.org/2014/an-overview-of-svg-sprite-creation-techniques/).
 
-#### Animating SVG with CSS:
+## Animating SVG with CSS:
 
 *  SVG doesn't have box-model, so you are actually transforming from the transform-origin:
 
@@ -120,7 +120,7 @@
 *  Any of the properties shared with CSS can be animated, but things like SVG ``<path>`` cannot be animated via CSS.
 
 
-#### Animating SVG with JS:
+## Animating SVG with JS:
 
 *  Animating on a path using SMIL
 *  [Snap.svg](http://www.snapsvg.io) <- the Jquery of SVG.
