@@ -23,11 +23,11 @@
   *  Presentation Attributes:
     *  SVG 1.1 didn't require CSS as all the styles were given via presentation attributes
 ```
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" __width="300px" height="300px"__ viewBox="0 0 300 300">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="300px" height="300px" viewBox="0 0 300 300">
   <polygon
-    __fill = "#FF931E"__
-    __stroke = "#ED1C24"__
-    __stroke-width = "5"__
+    fill = "#FF931E"
+    stroke = "#ED1C24"
+    stroke-width = "5"
 
     points = "908.1, 906.6..."/>
 </svg>
@@ -37,6 +37,7 @@
 *  Presentation Attributes VS CSS Attributes:
       *  Some are shared, but many are not in SVG 1.1.  [W3C Presentation Spec](http://www.w3.org/TR/SVG/propidx.html)
       *  More (much more) are coming in SVG 2.0. [W3C List](http://www.w3.org/TR/SVG2/styling.html#SVGStylingProperties)
+      *  ![CSS vs SVG style properties](../img/shared-properties.png)
 *  Inline Styles:
       *   Can also apply styles we know and love to SVG inline:
 
@@ -66,7 +67,7 @@
 
 *  Style Cascade overrides
   *   All presentation attributes will be overridden by document styles. The only style that presentation attributes actually overwrite are user agent stylesheets (default browser).
-  *  PUT IMAGE OF THE CASCADE HERE -- soueidan1.png
+  *  ![The SVG Style Cascade](../img/style-cascade.png)
 
 
 #### Using CSS Selectors:
