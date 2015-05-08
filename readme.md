@@ -100,6 +100,7 @@
 *  SVG doesn't have box-model, so you are actually transforming from the transform-origin:
 
 | &nbsp; | transform-origin (default) |
+| --- | --- |
 | HTML Elements (div, ::before, etc...) | 50% 50% <br> (the center of the element, relative to its' box-model) |
 | SVG Elements (circle, rect, etc...) | 0 0 <br> (the top left corner of the SVG canvas, the viewBox) |
 
