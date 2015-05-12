@@ -62,6 +62,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .signature-line {
   stroke-dasharray: 1583;
   animation: signatureWrite 3s infinite linear;
+  -webkit-animation: signatureWrite 3s infinite linear;
 }
 
 .reference {
@@ -98,6 +99,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 @keyframes signatureWrite {
+  0% {
+    stroke-dashoffset: 1583;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes signatureWrite {
   0% {
     stroke-dashoffset: 1583;
   }
