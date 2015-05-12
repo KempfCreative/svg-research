@@ -24,11 +24,16 @@ a img { border: none; }
 /* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
 
+.tinted {
+  background: #EAE1D2;
+}
+
 .header {
   font-size: 11em;
   color: #451A1A;
   font-family: 'Abril Fatface', Georgia, serif;
   text-align: center;
+  margin: 2rem 0 .1em 0;
 }
 
 .subhead {
@@ -39,9 +44,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 .signature {
-  
+  display: block;
+  width: auto;
+  margin: 1em 0 0 0;
+  left:50%;
+  transform: translate(-50%, 0);
+  position: absolute;
+}
+
+.signature-line {
+  stroke-dasharray: 1583;
+  animation: signatureWrite 3s infinite linear;
 }
 
 .reference {
   position: relative;
+}
+
+@keyframes signatureWrite {
+  0% {
+    stroke-dashoffset: 1583;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
 }
