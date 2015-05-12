@@ -130,11 +130,10 @@
 
 # Presentation TO DO :
 
-- [ ] Initial HTML page for basic show/tell of .SVG files created to show styling
-  - [ ] Set up Grunt workflow
-- [ ] SVG Creation:
+- [x] Initial HTML page for basic show/tell of .SVG files created to show styling
+- [x] SVG Creation:
   - [x] Basic ``<g>`` SVG
   - [ ] SVG Sprite Sheet Art Creation
-- [ ] Main HTML page for interactive elements
-  - [ ] CSS Animations
+- [x] Main HTML page for interactive elements
+  - [x] CSS Animations
   - [ ] JS Animations
