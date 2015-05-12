@@ -29,18 +29,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 .header {
+  width: auto;
+  display: inline-block;
   font-size: 11em;
   color: #451A1A;
   font-family: 'Abril Fatface', Georgia, serif;
   text-align: center;
-  margin: 2rem 0 .1em 0;
+  margin: 2rem 0 0.1em 50%;
+  transform: translate(-50%, 0);
 }
 
 .subhead {
+  width: auto;
+  display: inline-block;
   font-size: 4em;
   color: #451A1A;
   font-family: 'Abril Fatface', Georgia, serif;
   text-align: center;
+  margin:0 0 0 50%;
+  transform: translate(-50%, 0);
 }
 
 .signature {
@@ -59,6 +66,35 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 .reference {
   position: relative;
+}
+
+.icon {
+  position: absolute;
+}
+
+#s-top {
+  top: 1.2rem;
+  left: 0;
+}
+#s-bottom {
+  bottom:1.1rem;
+  left: 4.8rem;
+}
+#v-horizontal {
+  top: 1.9rem;
+  left: 11rem;
+}
+#v-vertical {
+  top: 1.3rem;
+  left: 13.5rem;
+}
+#g-top {
+  top:1.6rem;
+  right:1.4rem;
+}
+#g-bottom {
+  bottom: 0.6rem;
+  right: 4rem;
 }
 
 @keyframes signatureWrite {
